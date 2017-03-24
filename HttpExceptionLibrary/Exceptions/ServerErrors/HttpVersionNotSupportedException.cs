@@ -4,7 +4,7 @@ namespace HttpExceptionLibrary.Exceptions.ServerErrors
 {
     public class HttpVersionNotSupportedException : Exception
     {
-        public HttpVersionNotSupportedException() : base(HttpExceptionMessages.UnsupportedMediaType415)
+        public HttpVersionNotSupportedException() : base(HttpExceptionMessages.HttpVersionNotSupported505)
         {
         }
 

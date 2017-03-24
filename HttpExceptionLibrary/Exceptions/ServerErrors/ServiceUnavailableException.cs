@@ -4,7 +4,7 @@ namespace HttpExceptionLibrary.Exceptions.ServerErrors
 {
     public class ServiceUnavailableException : Exception
     {
-        public ServiceUnavailableException() : base(HttpExceptionMessages.UnsupportedMediaType415)
+        public ServiceUnavailableException() : base(HttpExceptionMessages.ServiceUnavailable503)
         {
         }
 

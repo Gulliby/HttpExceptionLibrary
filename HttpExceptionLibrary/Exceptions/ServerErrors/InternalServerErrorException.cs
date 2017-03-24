@@ -4,7 +4,7 @@ namespace HttpExceptionLibrary.Exceptions.ServerErrors
 {
     public class InternalServerErrorException : Exception
     {
-        public InternalServerErrorException() : base(HttpExceptionMessages.UnsupportedMediaType415)
+        public InternalServerErrorException() : base(HttpExceptionMessages.InternalServerError500)
         {
         }
 

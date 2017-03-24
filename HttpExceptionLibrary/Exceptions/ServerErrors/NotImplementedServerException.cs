@@ -4,7 +4,7 @@ namespace HttpExceptionLibrary.Exceptions.ServerErrors
 {
     public class NotImplementedServerException : Exception
     {
-        public NotImplementedServerException() : base(HttpExceptionMessages.UnsupportedMediaType415)
+        public NotImplementedServerException() : base(HttpExceptionMessages.NotImplemented501)
         {
         }
 

@@ -4,7 +4,7 @@ namespace HttpExceptionLibrary.Exceptions.ServerErrors
 {
     public class NetworkAuthenticationRequiredException : Exception
     {
-        public NetworkAuthenticationRequiredException() : base(HttpExceptionMessages.UnsupportedMediaType415)
+        public NetworkAuthenticationRequiredException() : base(HttpExceptionMessages.NetworkAuthenticationRequired511)
         {
         }
 

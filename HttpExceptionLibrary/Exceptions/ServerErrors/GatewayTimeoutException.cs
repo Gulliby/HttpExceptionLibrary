@@ -4,7 +4,7 @@ namespace HttpExceptionLibrary.Exceptions.ServerErrors
 {
     public class GatewayTimeoutException : Exception
     {
-        public GatewayTimeoutException() : base(HttpExceptionMessages.UnsupportedMediaType415)
+        public GatewayTimeoutException() : base(HttpExceptionMessages.GatewayTimeOut504)
         {
         }
 
