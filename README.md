@@ -1,4 +1,4 @@
-# HttpExceptionLibrary
+# Http Exception Library
 ## How to use
 
 Example
