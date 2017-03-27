@@ -18,7 +18,7 @@ Also you can use HttpExceptionFactory,
     Name = "Ilya",
     Age = "21"
   };
-  throw HttpExceptionFactory.GetException(HttpStatusCode.BadRequest, obj, "Guy {Name} and {Age} executed BadRequestException");
+  throw HttpExceptionFactory.Exception(HttpStatusCode.BadRequest, obj, "Guy {Name} and {Age} executed BadRequestException");
 ```
 the result exception message will be "Guy Ilya and 21 executed BadRequestException".
 
