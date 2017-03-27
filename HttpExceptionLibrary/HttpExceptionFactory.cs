@@ -8,7 +8,7 @@ namespace HttpExceptionLibrary
 {
     public static class HttpExceptionFactory
     {
-        public static Exception GetException(HttpStatusCode httpStatusCode, object obj, string format)
+        public static Exception Exception(HttpStatusCode httpStatusCode, object obj, string format)
         {
             switch (httpStatusCode)
             {

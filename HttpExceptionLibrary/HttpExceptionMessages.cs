@@ -58,7 +58,7 @@
         /// <value>
         /// The not acceptable406.
         /// </value>
-        public static string NotAcceptable406 { get; } = "	The server can only generate a response that is not accepted by the client";
+        public static string NotAcceptable406 { get; } = "The server can only generate a response that is not accepted by the client";
 
         /// <summary>
         /// Gets the proxy authentication required407.
