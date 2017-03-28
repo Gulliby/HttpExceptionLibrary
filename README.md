@@ -14,13 +14,13 @@ the exception message will be "The server will not accept the request, because t
 
 Also you can use HttpExceptionFactory,
 ```csharp
-  var obj = new {
-    Name = "Ilya",
-    Age = "21"
-  };
-  throw HttpExceptionFactory.Exception(HttpStatusCode.BadRequest, obj, "Guy {Name} and {Age} executed BadRequestException");
+var exampleObject = new {
+  Name = "Ilya",
+  Age = "21"
+};
+throw HttpExceptionFactory.Exception(HttpStatusCode.BadRequest, exampleObject, "Guy {Name} with {Age} executed BadRequestException");
 ```
-the result exception message will be "Guy Ilya and 21 executed BadRequestException".
+the result exception message will be "Guy Ilya with 21 executed BadRequestException".
 
 ## Default message list
 
